@@ -1,8 +1,10 @@
 package model;
 
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 @NoArgsConstructor
+@Getter
 public class OrderItem {
     private int quantity = 1;
     private Product product;
